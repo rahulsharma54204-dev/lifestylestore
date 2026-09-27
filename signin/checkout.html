@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="checkout.css">
+</head>
+<body>
+    <div id="navbarcheck" >
+        <div><a href="../index.html"><img src="//i1.lmsin.net/website_images/in/logos/logo-lifestyle.svg"></a></div>
+        <div>
+            <p>Call-1800-123-1555 <br> Monday-Saturday, 09:00AM - 07:00PM
+            </p>
+        </div>
+    </div>
+    <div id="main">
+        <from id="form1">
+            <div>
+                <h2>Select a shipping method</h2>
+                <div id="click">
+                    <div id="home">
+                        <h3>Home delivery</h3>
+                      <p>Get your product delivered to your home.</p>
+                   </div>
+                   <div id="collect">
+                    <h3>Click & Collect</h3>
+                    <p>Collect your order from a store of your choice.</p>
+                   </div>
+                </div>
+
+            </div>
+          
+        </from>
+
+
+        <!-- 3333333333333333333333333333333333333333333333 -->
+    
+       
+        <form id="form2">
+            <div>
+                <h3>Add your shipping address</h3>
+                <p>Full Name</p>
+                <div>
+                    <input id="name" required type="text" Placeholder="Full Name">
+                </div>
+                
+                <p>Mobile Number</p>
+                <div id="checknum">
+                    <div>
+                        +91
+                    </div>
+                    <div> 
+                      <input required id="mobile_number" type="text"  maxlength="10"  placeholder="Enter your mobile number" value="">
+                    </div>
+                </div>
+                <p>Pincode</p>
+                <div>
+                    <input id="pincode" required type="text" maxlength="6" placeholder="Enter pincode">
+                </div>
+               
+                <p>State</p>
+                <div>
+                    <select id="states">
+                        <option value="">Select Your State</option>
+                        <option value="state">Jammu & Kashmir</option>
+                        <option value=""> Uttar Pradesh</option>
+                        <option value="">Madhya Pradesh</option>
+                        <option value="">Himachal Pradesh</option>
+                        <option value="">West Bengal</option>
+                        <option value="">Kerla</option>
+                        <option value="">Arunchal Pradesh</option>
+                        <option value="">Naglaland</option>
+                        <option value="">Manipur</option>
+                        <option value="">Assam</option>
+                        <option value="">Ordisha</option>
+                        <option value="">Maharashtra</option>
+                        <option value="">Tamil Nadu</option>
+                        <option value="">Bihar</option>
+                        <option value="">Uttrakhand</option>
+                        <option value="">Gujrat</option>
+                        <option value="">Punjab</option>
+                        <option value="">chattishgarh</option>
+                        <option value="">Dada  And Nagar Haveli</option>
+                        <option value="">Andra Pradesh</option>
+                        <option value="">Andman And Nicobar Islands</option>
+                        <option value="">Goa</option>
+                        <option value="">Haryana</option>
+                        <option value="">Jharkhand</option>
+                        <option value="">Karnataka</option>
+                        <option value="">Mizoram</option>
+                        <option value="">Mayghalaya</option>
+                        <option value="">Skim</option>
+
+                    </select>
+                </div>
+                
+                <p>Building name or number</p>
+                <div>
+                    <input id="bulname" required type="text" placeholder="Enter Building Name">
+
+                </div>
+               
+                <p>Street name or number</p>
+                <div>
+                    <input id="street"  required type="text" placeholder="Enter Flate/House number, Floor, Building">
+                </div>
+               
+                <p>Landmark</p>
+                <div>
+                    <input id="landmark" required type="text" placeholder="Landmark">
+                </div>
+           </div>
+    
+        </form>
+        
+<form>
+        <div id="addo">
+            <p>Address Type</p>
+           
+            <div>
+                
+
+                <div><input type="radio" name="adr">
+                    Home
+                </div>
+                <div><input type="radio" name="adr">
+                    Office                        
+                </div>
+           
+            </div>
+       
+       
+           
+        </div>
+    
+    
+
+    </div>
+</form>
+
+
+
+
+
+    <div id="pay" >
+        <div>
+            <h2>Select a payment method</h2>
+            <div id="bank">
+                <img src="https://img.icons8.com/ios/32/bank-card-front-side--v2.png">
+                <div><h3>Credit/Debit Card</h3>
+                    <p>Use your Credit or Debit card</p>
+                </div>
+
+            </div>
+           
+        </div>
+
+    </div>
+
+    <form>
+    <div id="card">
+       
+        <div id="CAR">
+            <div>
+                <div></div><input  required type="radio" name="carddata">Credit Card</div>
+                <div><input  required type="radio" name="carddata">Debit  Card</li></ul></div>
+            </div>
+           
+        </div>
+    </form>
+
+        <form id="form3">
+            <div>
+                <p>Card Number</p>
+                <div>
+                    <input id="cardnumber" type="text" required maxlength="16" placeholder="Enter the 16 digit  card number">
+                </div>
+           
+            <p>Name on Card</p>
+            <div>
+                <input id="cardname" type="text" required placeholder="Name on card">
+            </div>
+           
+            <p>Expiry Date</p>
+            <div id="carddetail">
+                <div>
+                    <input required id="cardmonth"   required placeholder="Month ">
+                </div>
+                <div>
+                    <input required id="cardYY" type="year" required placeholder="YY">
+                </div>
+                <div>
+                    <input required id="cardCVV" type="password" required maxlength="3"placeholder="CVV">
+                </div>
+            </div>
+            <p><input id="save" type="checkbox">Save this card for future transactions </p>
+            <p>Billing Address</p>
+            <p> <input type="checkbox">Is billing address the same as shipping address?</p>
+
+        </div>              
+        </form>
+    </div>
+    <form>
+    <div id="last">
+        <div>
+            <div><input type="radio" name="bankdata"><img src="https://i1.lmsin.net/website_images/ae/checkout/logo-cash.png"></div>
+            <div><h4>Cash On Delivery</h4>
+            <p>+Rs 49</p></div>
+        </div>
+        <div>
+            <div><input type="radio" name="bankdata"><img src="https://i1.lmsin.net/website_images/in/checkout/logo-netbanking.svg"></div>
+            <div><h4>Net Banking</h4>
+            <p>Pay by your Preferred bank account.</p></div>
+        </div>
+        <div>
+            <div><input type="radio" name="bankdata"><img src="//i1.lmsin.net/website_images/in/checkout/logo-wallet.svg"></div>
+            <div><h4>Wallets</h4>
+            <p>pay by your Preferred wallet.</p></div>
+        </div>
+        <div>
+            <div id="divupi"><input type="radio" name="bankdata"><img id="upi" src="https://i1.lmsin.net/website_images/in/checkout/logo-rupay.svg"></div>
+            <div><h4>UPI</h4>
+            <p>pay by your Preferred UPI Id.</p></div>
+        </div>
+        <div id="button4">
+            <div> <p>By clicking on Proceed to Payment, you agree to our Terms and Conditions</p></div>
+            <div> <button id="onebtn">Pay Now</button></div>
+           
+           
+        </div>
+        
+
+    </div>
+    <div>
+
+    </div>
+</form>
+
+
+    <div id="footer">
+        
+            <img src="https://i1.lmsin.net/website_images/common/images/logos/logo-comodo.png">
+        
+        <div><p>Your credit card details are securely encrypted and passed directly to our PCI DSS compliant Payment Gateway for processing. We only store your credit card's last 4 digits and the expiration date. Your traffic to this page is secured using either a 256-bit or 128-bit SSL certificate depending on your browser version.</p>
+        <h4>2021 RNA Intellectual Property Limited.</h4>
+    <h4>Privacy Policy - Terms of Use - Terms & Conditions</h4></div>
+    </div>
+    <div id="lastline"></div>
+    
+   
+
+</body>
+</html>
+<script src="checkout.js"></script>

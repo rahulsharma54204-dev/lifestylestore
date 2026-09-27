@@ -1,0 +1,297 @@
+body {
+  font-family: ProximaNova-Semibold, "Helvetica Neue", Arial, sans-serif,
+    "Apple Color Emoji", "Segoe UI Emoji";
+}
+#atopss1 {
+  background-color: #faa619;
+  color: #ffffff;
+  text-align: center;
+  margin-bottom: 40px;
+  cursor: pointer;
+}
+#atopss1 > h2 {
+  padding: 10px 0px;
+  font-size: 16px;
+}
+#aslideshow1{
+  width: 1276px;
+  margin: auto;
+  transition: 3s;
+  margin-bottom: 100px;
+  cursor: pointer;
+}
+#avaluepickssection {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  gap: 20px;
+  padding-bottom: 30px;
+  text-align: center;
+}
+#avaluepickssection > div > h4 {
+  margin-top: 0px;
+  font-size: 14px;
+}
+#avaluepicks,
+#asparkle,
+#abanner1,
+#abanner2,
+#aslideshow2,
+#atoppicks,
+#afestive,
+#aonline,
+#abycat,
+#atoptrending,
+#aactivewear,
+#atreadd,
+#awadrob,
+#acurated,
+#amostloved,
+#aedilist,
+#afsale{
+  width: 1276px;
+  margin: auto;
+  margin-top: 100px;
+  padding-bottom: 40px;
+  border-bottom: 1px solid #929391;
+}
+#ashopbydept {
+  width: 1276px;
+  margin: auto;
+  margin-top: 100px;
+  padding-bottom: 40px;  
+}
+#aonline > div {
+  display: flex;
+  gap: 20px;
+}
+#aonline > div p {
+  font-size: 14px;
+}
+#aonline > div > div h4 {
+  font-size: 18px;
+  color: #242428;
+}
+#aonline > div > div s {
+  font-size: 12px;
+  color: #929391;
+}
+#aonline > div:last-child button {
+  color: #faa619;
+  font-size: 14px;
+  display: block;
+  margin: auto;
+  padding: 14px 120px;
+  border: 1px solid #d6d8f0;
+  background-color: #fff;
+  margin-top: 80px;
+}
+#aonline > div:last-child button:hover{
+  cursor: pointer;
+  border-color: #faa619;
+}
+#aonline > div:nth-child(2) > div > div {
+  width: 80%;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 8px;
+}
+#aonline > div:nth-child(2) > div > div span {
+  background-color: #ffffff;
+  position: relative;
+  width: 100%;
+  display: block;
+  text-align: center;
+  justify-content: end;
+  font-size: 12px;
+  left: 50%;
+  bottom: 80px;
+  padding: 5px 3px;
+}
+#aonline > div:nth-child(2) > div > span {
+  display: block;
+  width: 30px;
+  height: 30px;
+  position: relative;
+  left: 86%;
+  bottom: 78%;
+}
+#aonline > div:nth-child(2) > div > span:hover {
+  scale: 1.4;
+}
+#aonline > div:nth-child(2) > div > span img {
+  width: 100%;
+  border-radius: 50%;
+}
+.aonlineh{
+  margin-top: -40px;
+}
+.aonlinep{
+  margin-top: -20px;
+}
+#abycat > div,
+#atoptrendingbrands,
+#atao {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  gap: 20px;
+  text-align: center;
+}
+#avaluepickssection > div > img,
+#aslideshow1 > img,
+#asparkle > img,
+#abanner1 > img,
+#aslideshow2 > img,
+#abanner2 > img,
+#atoppicks > div:last-child img,
+#afestive > div:last-child img,
+#aonline > div > div img,
+#abycat > div img,
+#atoptrendingbrands img,
+#aatv img,
+#atao img,
+#awaess img,
+#acur img,
+#amolo img,
+#aeli img,
+#afsale img,
+#ashpdept img {
+  width: 100%;
+}
+#atoppicks > div:last-child,
+#afestive > div:last-child,
+#aatv,
+#awaess,
+#acur,
+#amolo,
+#aeli,
+#ashpdept {
+  display: flex;
+  gap: 20px;
+}
+#avaluepicks h2,
+#atoppicks h2,
+#afestive h2,
+#aonline h2,
+#abycat h2,
+#atoptrending h2,
+#aactivewear h2,
+#atreadd h2,
+#awadrob h2,
+#acurated h2,
+#amostloved h2,
+#aedilist h2,
+#afsale h2,
+#ashopbydept h2{
+  font-size: 36px;
+}
+#avaluepickssection,
+#asparkle,
+#abanner1,
+#aslideshow2,
+#abanner2,
+#atoppicks,
+#afestive,
+#aonline > div:nth-child(2),
+#abycat>div,
+#atoptrendingbrands,
+#aatv,
+#atao,
+#awaess,
+#acur,
+#amolo,
+#aeli,
+#afsale>div,
+#ashpdept{
+  cursor: pointer;
+}
+#anavbar{
+  margin-left: 300px;
+}
+@media only screen and (max-width: 992px) {
+  #aslideshow1,
+  #avaluepicks,
+  #asparkle,
+  #abanner1,
+  #aslideshow2,
+  #abanner2,
+  #atoppicks,
+  #afestive,
+  #aonline,
+  #abycat,
+  #atoptrending,
+  #aactivewear,
+  #atreadd,
+  #awadrob,
+  #acurated,
+  #amostloved,
+  #aedilist,
+  #afsale,
+  #ashopbydept {
+    width: 600px;
+  }
+  #avaluepickssection,
+  #atao {
+    grid-template-columns: repeat(3, 1fr);
+  }
+  #aonline > div:nth-child(2) > div > div,
+  #aonline > div:nth-child(2) > div > span {
+    display: none;
+  }
+  #abycat > div,
+  #atoptrendingbrands {
+    grid-template-columns: repeat(4, 1fr);
+  }
+  #aonline > div:last-child button {
+    padding: 14px 60px;
+  }
+  .aonlineh{
+    margin-top: 0px;
+  }
+  #anavbar{
+    display: none;
+  }
+}
+@media only screen and (max-width: 670px) {
+  #avaluepickssection {
+    grid-template-columns: repeat(1, 1fr);
+  }
+  #aslideshow1,
+  #avaluepicks,
+  #asparkle,
+  #abanner1,
+  #aslideshow2,
+  #abanner2,
+  #atoppicks,
+  #afestive,
+  #aonline,
+  #abycat,
+  #atoptrending,
+  #aactivewear,
+  #atreadd,
+  #awadrob,
+  #acurated,
+  #amostloved,
+  #aedilist,
+  #afsale,
+  #ashopbydept {
+    width: 400px;
+  }
+  #aonline > div:nth-child(2) > div > div,
+  #aonline > div:nth-child(2) > div > span {
+    display: none;
+  }
+  #abycat > div,
+  #atoptrendingbrands,
+  #atao {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  #aonline > div:last-child button {
+    padding: 14px 60px;
+  }
+  .aonlineh{
+    margin-top: 0px;
+  }
+  #anavbar{
+    display: none;
+  }
+}
